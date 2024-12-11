@@ -7,6 +7,7 @@ Each program is designed to demonstrate core programming concepts and can serve 
 ## Table of Contents
 
 - [Even or Odd Number Check](Even_odd_num.pas)
+- [Print Rectengle](new_shape_rec.pas)
 - [Find Highest Number](High_Number.pas)
 - [Manipulating Number List](Num_List.pas)
 - [Positive or Negative Number Check](Num_Pos_neg.pas)
@@ -27,6 +28,9 @@ Each program is designed to demonstrate core programming concepts and can serve 
 ## General Program Descriptions
 
 The following programs have been developed and designed by **me**, showcasing various Pascal programming techniques:
+
+### new_shape_rec.pas
+This program print the tringle of 1 demention by user enter number of lines want**.
 
 ### Even_odd_num.pas
 This program checks if a given number is **even** or **odd** using the **modulo operation** (`mod`).
