@@ -1,95 +1,96 @@
-====== Pascal Programming Collection ======
+# Pascal Programming Collection
 
-This repository contains a collection of **Pascal programs** that showcase various programming techniques. The collection includes a diverse set of programs that cover topics ranging from **basic arithmetic operations** to **geometric shapes** and **prime number checking**. 
+This repository contains a collection of **Pascal programs** that demonstrate various programming techniques. The collection includes a diverse set of programs that cover topics ranging from basic **arithmetic operations** to **geometric shapes** and **prime number checking**.
 
 Each program is designed to demonstrate core programming concepts and can serve as an educational resource for anyone looking to learn Pascal or improve their coding skills.
 
-===== Table of Contents =====
-  - [[Even_odd_num.pas|Even or Odd Number Check]]
-  - [[High_Number.pas|Find Highest Number]]
-  - [[Num_List.pas|Manipulating Number List]]
-  - [[Num_Pos_neg.pas|Positive or Negative Number Check]]
-  - [[Other_Method_Prime_Num.pas|Alternative Prime Number Method]]
-  - [[Premeir.pas|Prime Number Checking (Basic)]]
-  - [[Premeir_Nm.pas|Prime Number Checking (Optimized)]]
-  - [[Prime_Number.pas|Prime Number Checker]]
-  - [[Program_Sqrt_Adv_Meth.pas|Square Root Calculation (Advanced)]]
-  - [[Show_Prime_Numbers.pas|Display Prime Numbers up to N]]
-  - [[center_Triangle.pas|Centered Triangle Shape]]
-  - [[idea_try.pas|Random Idea Exploration]]
-  - [[middle_rectengle.pas|Centered Rectangle Shape]]
-  - [[new_shape_rec.pas|Custom Rectangle Shape]]
-  - [[number_shape.pas|Number-Based Shape Generation]]
-  - [[plus_gr.pas|Addition-Based Shape Generation]]
-  - [[positive_negative_num.pas|Positive or Negative Number Checker]]
+## Table of Contents
 
-===== General Program Descriptions =====
+- [Even or Odd Number Check](Even_odd_num.pas)
+- [Find Highest Number](High_Number.pas)
+- [Manipulating Number List](Num_List.pas)
+- [Positive or Negative Number Check](Num_Pos_neg.pas)
+- [Alternative Prime Number Method](Other_Method_Prime_Num.pas)
+- [Prime Number Checking (Basic)](Premeir.pas)
+- [Prime Number Checking (Optimized)](Premeir_Nm.pas)
+- [Prime Number Checker](Prime_Number.pas)
+- [Square Root Calculation (Advanced)](Program_Sqrt_Adv_Meth.pas)
+- [Display Prime Numbers up to N](Show_Prime_Numbers.pas)
+- [Centered Triangle Shape](center_Triangle.pas)
+- [Random Idea Exploration](idea_try.pas)
+- [Centered Rectangle Shape](middle_rectengle.pas)
+- [Custom Rectangle Shape](new_shape_rec.pas)
+- [Number-Based Shape Generation](number_shape.pas)
+- [Addition-Based Shape Generation](plus_gr.pas)
+- [Positive or Negative Number Checker](positive_negative_num.pas)
 
-The following programs have been developed and designed by me, demonstrating various **Pascal programming techniques**:
+## General Program Descriptions
 
-==== Even_odd_num.pas ====
-This program checks if a given number is **even** or **odd**. It uses the **modulo operation** (`mod`) to determine the number's parity.
+The following programs have been developed and designed by **me**, showcasing various Pascal programming techniques:
 
-==== High_Number.pas ====
-This program finds the **highest number** in a given list. It iterates through the numbers, comparing each one to find the maximum.
+### Even_odd_num.pas
+This program checks if a given number is **even** or **odd** using the **modulo operation** (`mod`).
 
-==== Num_List.pas ====
-A program to manipulate a list of numbers. Operations like **addition**, **subtraction**, and **average calculation** can be performed on the list.
+### High_Number.pas
+This program identifies the **highest number** in a given list by comparing each element in the list.
 
-==== Num_Pos_neg.pas ====
-Checks if a number is **positive**, **negative**, or **zero** using simple conditional checks. It provides an easy way to evaluate number signs.
+### Num_List.pas
+This program manipulates a list of numbers, performing basic operations like **addition**, **subtraction**, and **average calculation**.
 
-==== Other_Method_Prime_Num.pas ====
-This is an alternative approach for checking if a number is **prime**. Instead of the typical trial division method, this program explores other techniques for efficient prime checking.
+### Num_Pos_neg.pas
+This program checks if a number is **positive**, **negative**, or **zero** and outputs the result accordingly.
 
-==== Premeir.pas ====
-This program checks if a number is **prime** by testing divisibility from `1` to `n-1`. It uses a basic prime-checking algorithm.
+### Other_Method_Prime_Num.pas
+An alternative method for determining if a number is **prime**, exploring a different algorithm beyond trial division.
 
-==== Premeir_Nm.pas ====
-An optimized version of the **prime number checker**. This program reduces the number of checks by testing divisibility only up to the square root of the number.
+### Premeir.pas
+A basic **prime number checker** that tests divisibility from `1` to `n-1`.
 
-==== Prime_Number.pas ====
-Checks if a number is **prime** using trial division up to the square root of the given number. This is one of the most common methods for primality testing.
+### Premeir_Nm.pas
+An optimized version of the **prime number checker**, which tests divisibility only up to the square root of the number.
 
-==== Program_Sqrt_Adv_Meth.pas ====
-Calculates the **square root** of a number using an advanced method, possibly utilizing optimizations or techniques to improve the calculation.
+### Prime_Number.pas
+A classic **prime number checking program** using trial division up to the square root.
 
-==== Show_Prime_Numbers.pas ====
-Generates and displays all **prime numbers up to a specified limit**. It loops through numbers, checks each for primality, and prints the results.
+### Program_Sqrt_Adv_Meth.pas
+This program calculates the **square root** of a number using an **advanced method**, providing more accuracy and efficiency.
 
-==== center_Triangle.pas ====
-Draws a **triangle** that is **centered** on the screen. It uses loops to generate a balanced shape, making it visually appealing.
+### Show_Prime_Numbers.pas
+Generates and displays all **prime numbers up to a specified limit**, printing each prime number.
 
-==== idea_try.pas ====
-This program is a collection of **random code snippets** and **testing ideas**. It explores various features and learning experiments.
+### center_Triangle.pas
+Draws a **centered triangle** on the screen using loops for precise positioning.
 
-==== middle_rectengle.pas ====
-Draws a **rectangle** that is **centered** on the screen. You can adjust the dimensions of the rectangle using simple logic.
+### idea_try.pas
+An experimental program that explores various ideas and algorithms, showcasing flexibility in coding.
 
-==== new_shape_rec.pas ====
-Generates a **custom rectangle shape**. It focuses on drawing flexibility and allowing for easy shape customization.
+### middle_rectengle.pas
+Draws a **centered rectangle** on the screen with customizable dimensions.
 
-==== number_shape.pas ====
-Generates shapes based on numbers, such as **triangular or square patterns**, using loops and conditional statements.
+### new_shape_rec.pas
+Generates a **custom rectangle** shape, allowing for greater flexibility in design.
 
-==== plus_gr.pas ====
-This program generates shapes based on **arithmetic operations**, where the output of mathematical calculations is used to form patterns.
+### number_shape.pas
+Generates geometric shapes based on numbers, forming patterns such as triangles, squares, etc.
 
-==== positive_negative_num.pas ====
-Checks if a number is **positive**, **negative**, or **zero**. It evaluates the number and prints the result accordingly.
+### plus_gr.pas
+This program generates shapes or patterns based on arithmetic operations between numbers.
 
-===== How to Run the Programs =====
+### positive_negative_num.pas
+Checks if a number is **positive**, **negative**, or **zero** and prints the result accordingly.
 
-To run these Pascal programs on your machine, follow these steps:
+## How to Run the Programs
 
-  1. Ensure you have a **Pascal compiler** installed, such as **Free Pascal** or **Turbo Pascal**.
-  2. Open the corresponding `.pas` file in your **Pascal IDE** or text editor.
-  3. **Compile** and **run** the program to see the output in the terminal or console window.
+To run these programs on your local machine:
 
-===== License =====
+1. Install a **Pascal compiler** (e.g., **Free Pascal** or **Turbo Pascal**).
+2. Open the `.pas` file in your **Pascal IDE** or text editor.
+3. **Compile** and **run** the program to see the output.
+
+## License
 
 These programs are open-source and intended for **educational purposes**. Feel free to **fork**, **modify**, and **use** them as needed.
 
-===== Contributing =====
+## Contributing
 
-Contributions are always welcome! If you would like to contribute to this project, feel free to submit **pull requests** or **open issues** for discussion.
+Contributions are welcome! If you want to improve any of the programs, feel free to submit **pull requests** or **open issues**.
